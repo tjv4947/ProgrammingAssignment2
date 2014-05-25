@@ -1,5 +1,5 @@
-## These routines creates a matrix which can cache its inverse its inverse to 
-##     avoid re-computing for a matrix which has already been calculated.
+## These routines creates a matrix which can cache its inverse to avoid re-computing
+##      the matrix which has already been calculated.
 
 ##  Routine to create a cache for input matrix x and results using the super assignment '<<-' operator
 ##  N.B. There is no error checking to make sure the matrix is properly sized, which could be added.
